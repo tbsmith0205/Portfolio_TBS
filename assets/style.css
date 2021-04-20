@@ -43,14 +43,10 @@ header {
   color: var(--blue);
 }
 
-.aboutAside .workAside {
-  flex: 30%;
-  padding: 20px;
-  flex-wrap: wrap;
+.container {
+  display: flex;
 }
 
-.aboutSection {
-  flex: 70%;
-  padding: 20px;
-  border-left: var(--blue) solid 5px;
+.aboutMe {
+  border-right: var(--blue) solid 5px;
 }
