@@ -36,3 +36,15 @@ header {
 .topnavLinks a {
   color: var(--blue);
 }
+
+.aboutAside {
+  flex: 30%;
+  padding: 20px;
+  flex-wrap: wrap;
+}
+
+.aboutSection {
+  flex: 70%;
+  padding: 20px;
+  border-left: var(--blue) solid 5px;
+}
