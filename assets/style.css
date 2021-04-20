@@ -5,7 +5,8 @@
 
 header {
   box-sizing: border-box;
-  background-color: var(--dark);
+  height: 100px;
+  background: var(--dark);
   display: flex;
   justify-content: space-between;
   padding: 30px 10%;
@@ -20,10 +21,13 @@ header {
 .topnavLinks {
   display: inline-block;
   list-style: none;
-  text-decoration: underline 6px;
-  color: var(--blue);
+  /* text-decoration: underline 6px; */
 }
 
 .topnavLinks li {
   display: inline-block;
+}
+
+.topnavLinks a {
+  color: var(--blue);
 }
