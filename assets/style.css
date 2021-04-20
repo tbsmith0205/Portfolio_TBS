@@ -1,0 +1,29 @@
+:root {
+  --dark: #393b3d;
+  --blue: #4589cc;
+}
+
+header {
+  box-sizing: border-box;
+  background-color: var(--dark);
+  display: flex;
+  justify-content: space-between;
+  padding: 30px 10%;
+  color: var(--blue);
+  font-family: "Oswald", sans-serif;
+}
+
+.topName {
+  align-content: left;
+}
+
+.topnavLinks {
+  display: inline-block;
+  list-style: none;
+  text-decoration: underline 6px;
+  color: var(--blue);
+}
+
+.topnavLinks li {
+  display: inline-block;
+}
