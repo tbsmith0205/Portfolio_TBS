@@ -26,6 +26,7 @@ header {
   padding: 30px 10%;
   color: var(--blue);
   font-family: "Oswald", sans-serif;
+  border-bottom: var(--blue) solid 10px;
 }
 
 .topName {
@@ -54,7 +55,7 @@ header {
 
 .aboutMe {
   margin: 2px;
-  padding: 10px;
+  padding: 4px;
   color: var(--blue);
   background-color: var(--light);
   border-radius: 15px;
@@ -69,4 +70,13 @@ header {
 }
 
 .contentAboutMe {
+  padding: 4%;
+}
+
+.work {
+  margin: 2px;
+  padding: 4px;
+  color: var(--blue);
+  background-color: var(--light);
+  border-radius: 15px;
 }
