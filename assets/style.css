@@ -39,6 +39,10 @@ header {
   margin: 15px;
 }
 
+.topnavLinks a:hover {
+  background-color: chartreuse;
+}
+
 .topnavLinks li {
   display: inline-block;
 }
