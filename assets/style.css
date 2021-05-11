@@ -96,7 +96,12 @@ header {
   min-width: 80%;
 }
 
-#lumberTally {
+#foodTruck {
+  height: 500px;
+  width: 500px;
+}
+
+#foodTruckSS {
   height: 500px;
   width: 500px;
 }
@@ -108,7 +113,11 @@ header {
 }
 
 .caption {
-  padding-bottom: 8px;
+  padding-bottom: 20px;
+}
+
+#projectTwo {
+  padding-top: 40px;
 }
 
 footer {
